@@ -22,9 +22,10 @@ body {
 .list {
   list-style: none;
 }
-
+.address {
+    font-style: normal;
+}
 /*==============HEADER================*/
-
 .link {
   text-decoration: none;
   color: var(--mostly-black-color);
@@ -186,14 +187,17 @@ background: var(--dark-graylish-blue-color);
 .product-item {
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% 
+
+  /* identical to box height, or 187% */
 
   color: var(--dark-gray-color);
+
 }
-.item-title {
+ .item-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
