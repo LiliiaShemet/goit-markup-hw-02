@@ -2,47 +2,52 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --mostly-black-color: #212121;
+  --dark-graylish-blue-color: #2f303A;
+  --dark-gray-color: #757575;
+  --transparent-white-color: rgba(255, 255, 255, 0.6);
+
 }
 
 body {
   font-family: var(--main-font);
-  color: #212121;
+  color: var(--mostly-black-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
 }
 
-.address {
-  font-style: normal;
-}
 /*==============HEADER================*/
 
 .link {
   text-decoration: none;
-  color: #212121;
+  color: var(--mostly-black-color);
 }
 
 .header {
-  background: #ffffff;
+  background: var(--white-color);
 }
 
 .logo {
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
 
-  letter-spacing: 0.03em;
 }
 
 .logo-dark {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .logo-light {
-  color: #212121;
+  color: var(--mostly-black-color);
 }
 
 .letter {
@@ -50,9 +55,7 @@ body {
 }
 
 .nav-link {
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -63,7 +66,7 @@ body {
 }
 
 .nav-contact-link {
-  color: #757575;
+  color: var(--dark-gray-color);
 }
 .active-link {
   color: var(--accent-color);
@@ -72,28 +75,34 @@ body {
 
 /*==============HERO================*/
 .modal-btn {
-  font-style: normal;
   font-weight: bold;
   text-align: center;
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
-
+.hero-bg{
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: var(--dark-graylish-blue-color);
+  }
 /*==============END HERO================*/
 
 .main-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36; /* or 136% */
-
+  color: var(--white-color);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -101,114 +110,87 @@ body {
 
 /*===========ABOUT===============*/
 .feature-title {
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .feature {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
+  color:var(--dark-gray-color);
 }
 
 .about-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .about-item-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
 
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .about-item {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
 
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /*===========END ABOUT===============*/
 /*=============FOOTER================*/
 .footer-address-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   /* or 171% */
-
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-contact-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--transparent-white-color);
 }
+.footer-bg {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
 
+background: var(--dark-graylish-blue-color);
+}
 /*=============END FOOTER================*/
 
 /*=============Portfolio================*/
 .filter-btn {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   /* identical to box height, or 162% */
 
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 .product-item {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
+  /* identical to box height, or 187% 
 
-  letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--dark-gray-color);
 }
 .item-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -216,5 +198,11 @@ body {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--mostly-black-color);
+}
+.map-link {
+  color: var(--white-color);
+}
+.tr-link {
+  color: var(--transparent-white-color);
 }
