@@ -91,10 +91,6 @@ body {
   color: var(--white-color);
 }
 .hero-bg{
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
 background: var(--dark-graylish-blue-color);
   }
 /*==============END HERO================*/
@@ -159,11 +155,6 @@ background: var(--dark-graylish-blue-color);
   color: var(--transparent-white-color);
 }
 .footer-bg {
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-
 background: var(--dark-graylish-blue-color);
 }
 /*=============END FOOTER================*/
